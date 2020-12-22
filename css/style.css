@@ -1,0 +1,181 @@
+nav{
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+nav .m-n{
+    display: flex;
+    flex-direction: column;
+}
+
+nav .m-n a,.btn-twitter{
+    transition: 0.5s background;
+    color: black;
+    font-weight: 700;
+    margin: 5px;
+    font-size:18px;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+nav .m-n .active{
+    color: deepskyblue;
+}
+
+nav .m-n span{
+    transition: 0.5s background;
+    margin: 5px 0px;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+
+
+
+.tags{
+    flex-direction: column;
+}
+
+nav .m-n span:hover{
+    color: #3d9ef8;
+    
+}
+svg {
+    fill: currentcolor;
+    color: rgba(29,161,242,1.00);
+    height: 1.75rem;
+}
+a{
+    text-decoration: none;
+}
+.items-btn{
+    color: rgba(29,161,242,1.00);
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.items-btn:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #3d9ef8;
+    background-color: #3d9ef85b;
+}
+nav .m-n span:hover a{
+    text-decoration: none;
+    color: #3d9ef8;
+    background-color: #3d9ef85b;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.btn-twitter{
+    border-radius: 25px;
+    padding: 5px 20px;
+    background-color: #3d9ef8!important;
+    color: white!important;
+    transition: 0.5s background;
+}
+
+.btn-twitter:hover{
+    background-color: #2a94f8!important;
+    color: white!important;
+    text-decoration: none;
+}
+.r-img{
+    border-radius: 50%;
+}
+.acc-d{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.flex{
+    display: flex;
+}
+.f-sa{
+    justify-content: space-around;
+}
+.f-sb{
+    justify-content: space-between;
+}
+
+.f-c{
+    flex-direction: column;
+}
+
+
+.tr{
+    font-size: 0.9em;
+}
+
+.f-ac{
+    align-items: center;
+}
+
+.main{
+    height: 100vh;
+    padding: 0;
+    padding-top: 5px;
+    border-right: solid rgb(192, 196, 199) 1px;
+    border-left: solid rgb(192, 196, 199) 1px;
+}
+
+.stars{
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.5s background;
+    transform: scale(0.7);
+}
+
+.stars:hover{
+    background-color: #3d9ef849;
+}
+
+.split{
+    border-bottom: solid rgb(192, 196, 199) 1px;
+}
+
+.search{
+    border-radius: 20px;
+    border: none;
+    background-color: #f7f9fa;
+}
+
+.tag-c{
+    border-radius: 20px;
+    border: none;
+    background-color: #f7f9fa;
+}
+
+.twit{
+    border: none;
+    background-color: #fff;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
